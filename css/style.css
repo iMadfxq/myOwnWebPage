@@ -70,9 +70,12 @@ main {
   font-size: 2.8rem;
   line-height: 3rem;
   padding: 20px;
+  font-weight: 900;
+  letter-spacing: 2px;
 }
 .main__who--container p {
   font-size: 1.8rem;
   padding: 15px;
   text-align: center;
+  font-weight: 300;
 }
