@@ -11,8 +11,6 @@ html {
   font-family: var(--primary-font);
 }
 body {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgb(0, 0, 0) 10%, rgba(76,0,8,1) 85%);
 }
 :root {
   --font-primary-color: white;
@@ -20,7 +18,7 @@ body {
   --secondary-font: 'Roboto', sans-serif;
 }
 
-/* HEADER STYLES */
+/* HEADER */
 header {
   width: 100%;
   height: 60px;
@@ -33,7 +31,7 @@ header {
   inset-block-start: 0px;
 }
 .header__logo img {
-  width: 60px;
+  width: 100px;
   user-select: none;
 }
 header a {
@@ -60,24 +58,27 @@ header li {
   font-weight: 800;
 }
 
-/* MAIN STYLES */
+/* MAIN ABOUT */
 main {
   height: 100%;
   color: var(--font-primary-color);
 }
-.main__who--container {
+.main__about--container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 10%, rgba(76,0,8,1) 85%);
+
 }
-.main__who--logo {
+.main__about--logo {
   width: 200px;
-  margin-block-start: 80px;
+  margin-block-start: 70px;
   margin-block-end: 10px;
   border-radius: 50%;
   user-select: none;
 }
-.main__who--container h2 {
+.main__about--container h2 {
   font-size: 2.8rem;
   line-height: 3rem;
   padding: 20px;
@@ -88,7 +89,7 @@ main {
   box-shadow: 5px 5px white;
   margin: 5px;
 }
-.main__who--container p {
+.main__about--container p {
   font-size: 1.8rem;
   padding: 15px;
   text-align: center;
@@ -96,4 +97,28 @@ main {
   background-color: black;
   border-radius: 20px;
   margin: 10px 13px;
+  margin-block-end: 40px;
+}
+
+/* MAIN SKILLS */
+.main__skills--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(76,0,8,1);
+  height: 450px;
+}
+.main__skills--icon {
+  padding: 15px;
+  border-block-end: 5px dashed white;
+}
+.main__skills--icon img {
+  width: 50px;
+}
+
+/* MAIN CONTACT */
+.main__contact--container {
+  background-color: rgba(76,0,8,1);
+  background: linear-gradient(180deg, rgba(76,0,8,1) 10%, rgb(0, 0, 0) 75%);
+  height: 400px;
 }
