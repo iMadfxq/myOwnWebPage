@@ -10,8 +10,6 @@ html {
   font-size: 62.5%;
   font-family: var(--primary-font);
 }
-body {
-}
 :root {
   --font-primary-color: white;
   --primary-font: 'Open Sans', sans-serif;
@@ -47,14 +45,14 @@ header a:hover {
 header ul {
   display: flex;
   justify-content: space-evenly;
-  width: 60vw;
+  width: 70vw;
 }
 header li {
   height: 60px;
   display: flex;
   align-items: center;
   font-family: var(--primary-font);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 800;
 }
 
@@ -69,7 +67,6 @@ main {
   align-items: center;
   background: rgb(0, 0, 0);
   background: linear-gradient(180deg, rgb(0, 0, 0) 10%, rgba(76,0,8,1) 85%);
-
 }
 .main__about--logo {
   width: 200px;
