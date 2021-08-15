@@ -29,18 +29,18 @@ header {
   inset-block-start: 0px;
 }
 .header__logo img {
-  width: 100px;
+  width: 86px;
   user-select: none;
+}
+.header__logo a {
+  padding: 0;
 }
 header a {
   color: var(--font-primary-color);
-  padding: 18px 7px 18px 7px;
+  padding: 18px 7px;
 }
 header a:hover {
   text-decoration: underline;
-  background-color: rgba(168, 0, 0, 0.311);
-  transition: .2s;
-  border-radius: 15px;
 }
 header ul {
   display: flex;
@@ -77,7 +77,6 @@ main {
 }
 .main__about--container h2 {
   font-size: 2.8rem;
-  line-height: 3rem;
   padding: 20px;
   font-weight: 900;
   letter-spacing: 2px;
@@ -94,7 +93,7 @@ main {
   background-color: black;
   border-radius: 20px;
   margin: 10px 13px;
-  margin-block-end: 40px;
+  margin-block-end: 20px;
 }
 
 /* MAIN SKILLS */
@@ -102,7 +101,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: rgba(76,0,8,1);
+  background-color: rgba(76,0,8,1);
   height: 450px;
 }
 .main__skills--icon {
@@ -112,7 +111,29 @@ main {
 .main__skills--icon img {
   width: 50px;
 }
-
+.main__skills--container h2 {
+  margin-block-start: 20px;
+  font-size: 2.8rem;
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  border: 6px solid black;
+  padding: 10px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.main__skills--technologies{
+  padding: 15px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px 13px;
+}
+.main__skills--technologies p{
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 500;
+  color: black;
+}
 /* MAIN CONTACT */
 .main__contact--container {
   background-color: rgba(76,0,8,1);
