@@ -105,11 +105,12 @@ main {
   background-color: rgba(76,0,8,1);
   height: 100%;
 }
-.main__skills--icon {
+.title--icon {
   padding: 15px;
+  margin-block-start: 55px;
   border-block-end: 5px dashed white;
 }
-.main__skills--icon img {
+.title--icon img {
   width: 50px;
 }
 .title {
@@ -155,15 +156,22 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   width: 92vw;
   margin: 10px 13px;
 }
 .main__contact--info a {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-block-end: 18px;
+  place-content: center;
+  place-items: center;
+  width: 180px;
+  padding: 15px;
+}
+.main__contact--info a:hover {
+  background-color: rgb(230, 228, 228);
+  border-radius: 25px;
+  transition: 0.6s;
 }
 .main__contact--info a img {
   width: 50px;
