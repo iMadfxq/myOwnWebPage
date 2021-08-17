@@ -23,7 +23,7 @@ header {
   height: 60px;
   color: var(--font-primary-color);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: black;
   position: sticky;
@@ -39,19 +39,28 @@ header {
 header a {
   color: var(--font-primary-color);
   padding: 18px 7px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 header a:hover {
   text-decoration: underline;
+  font-size: 1.4rem;
+  transition: .3s;
+  background-color: rgb(80, 80, 80);
+  border-radius: 10px;
 }
 header ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 70vw;
 }
 header li {
   height: 60px;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-family: var(--primary-font);
   font-size: 1.3rem;
   font-weight: 800;
@@ -170,18 +179,18 @@ main {
   padding: 15px;
 }
 .main__contact--info a:hover {
-  background-color: rgb(230, 228, 228);
+  background-color: rgb(231, 231, 231);
   border-radius: 25px;
-  transition: 0.6s;
+  transition: 0.5s;
 }
 .main__contact--info a img {
   width: 50px;
 }
 .main__contact--info a h2 {
   color: black;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .main__contact--info a p {
   color: black;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
