@@ -147,6 +147,17 @@ main {
   font-weight: 500;
   color: black;
 }
+.main__skills--samples {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main__skills--comments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* MAIN CONTACT */
 .main__contact--container {
   background-color: rgba(76,0,8,1);
