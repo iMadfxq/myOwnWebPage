@@ -77,7 +77,6 @@ main {
   align-items: center;
   background: rgb(0, 0, 0);
   background: linear-gradient(180deg, rgb(0, 0, 0) 10%, rgba(76,0,8,1) 85%);
-  width: 100vw;
 }
 .main__about--logo {
   width: 200px;
@@ -146,7 +145,6 @@ main {
   align-items: center;
   background-color: rgba(76,0,8,1);
   height: 100%;
-  width: 100vw;
 }
 .title--icon {
   padding: 15px;
