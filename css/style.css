@@ -148,6 +148,7 @@ main {
   color: black;
   transition: .3s;
   text-decoration: underline;
+  font-size: 2rem;
 }
 
 /* MAIN SKILLS */
