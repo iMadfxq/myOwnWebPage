@@ -13,7 +13,7 @@ html {
 }
 :root {
   --font-primary-color: white;
-  --light-grey: rgb(231, 231, 231);
+  --light-grey: rgb(209, 209, 209);
   --primary-font: 'Open Sans', sans-serif;
   --secondary-font: 'Roboto', sans-serif;
 }
@@ -56,11 +56,11 @@ header a {
   width: 70px;
   display: flex;
   justify-content: center;
+  transition: .5s;
 }
 header a:hover {
   text-decoration: underline;
   font-size: 1.4rem;
-  transition: .3s;
   background-color: var(--light-grey);
   color: black;
   border-radius: 7px;
@@ -140,15 +140,14 @@ main {
   align-items: center;
   justify-content: center;
   color: white;
+  transition: .6s;
 }
 .main__about--cv:hover {
   background-color: var(--light-grey);
-  transition: .3s;
   border: 4px solid grey;
   color: black;
-  transition: .3s;
   text-decoration: underline;
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 
 /* MAIN SKILLS */
@@ -243,7 +242,7 @@ main {
   justify-content: space-around;
   align-items: center;
   width: 92vw;
-  margin: 10px 13px;
+  margin: 10px 13px 0px 13px;
 }
 .main__contact--info a {
   display: flex;
@@ -252,20 +251,51 @@ main {
   place-items: center;
   width: 180px;
   padding: 15px;
+  transition: .6s;
 }
 .main__contact--info a:hover {
   background-color: var(--light-grey);
   border-radius: 25px;
-  transition: 0.5s;
 }
 .main__contact--info a img {
   width: 50px;
+  margin-block-end: 5px;
 }
 .main__contact--info a h2 {
   color: black;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 .main__contact--info a p {
   color: black;
   font-size: 1.3rem;
+}
+
+/* FOOTER */
+.footer__info {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.footer__info a {
+  color: white;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms;
+}
+.footer__info a:hover {
+  font-size: 1.5rem;
+}
+.footer__info span {
+  color: red;
+  margin-inline-start: 5px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: underline;
 }
