@@ -37,15 +37,17 @@ header {
   height: 60px;
   color: var(--font-primary-color);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: black;
   position: sticky;
   inset-block-start: 0px;
+  z-index: 5;
 }
 .header__logo img {
   width: 86px;
   user-select: none;
+  margin-inline-start: 10px;
 }
 .header__logo a {
   padding: 0;
@@ -53,20 +55,21 @@ header {
 header a {
   color: var(--font-primary-color);
   padding: 15px 7px;
-  width: 70px;
+  width: fit-content;
   display: flex;
   justify-content: center;
   transition: .5s;
 }
 header a:hover {
   text-decoration: underline;
-  font-size: 1.4rem;
+  transform: scale(1.2);
 }
 .header__nav--links {
   display: flex;
-  justify-content: space-around;
-  width: 70vw;
+  justify-content: flex-end;
+  width: fit-content;
   margin-block-start: 7px;
+  margin-inline-end: 10px;
 }
 header li {
   height: 50px;
@@ -101,7 +104,7 @@ main {
   font-size: 2.8rem;
   padding: 20px;
   font-weight: 900;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   background-color: black;
   border-radius: 20px;
   box-shadow: 5px 5px white;
@@ -139,11 +142,8 @@ main {
   transition: .6s;
 }
 .main__about--cv:hover {
-  background-color: var(--light-grey);
-  border: 4px solid grey;
-  color: black;
   text-decoration: underline;
-  font-size: 1.9rem;
+  transform: scale(1.1);
 }
 
 /* MAIN SKILLS */
@@ -171,7 +171,7 @@ main {
   border: 6px solid black;
   padding: 10px;
   font-weight: 900;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .main__skills--technologies{
   padding: 15px;
@@ -248,10 +248,12 @@ main {
   width: 180px;
   padding: 15px;
   transition: .6s;
+  z-index: 2;
 }
 .main__contact--info a:hover {
   background-color: var(--light-grey);
   border-radius: 25px;
+  transform: scale(1.1);
 }
 .main__contact--info a img {
   width: 50px;
@@ -260,6 +262,9 @@ main {
 .main__contact--info a h2 {
   color: black;
   font-size: 1.5rem;
+}
+.main__contact--info a:hover h2 {
+  text-decoration: underline;
 }
 .main__contact--info a p {
   color: black;
@@ -287,6 +292,7 @@ main {
 }
 .footer__info a:hover {
   font-size: 1.5rem;
+  text-decoration: underline;
 }
 .footer__info span {
   color: red;
