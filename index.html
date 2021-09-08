@@ -8,7 +8,10 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet"></head>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" media="screen and (min-width: 600px)" href="./css/tablet.css">
+  <link rel="stylesheet" media="screen and (min-width: 900px)" href="./css/desktop.css">
+</head>
 <body>
   <header>
     <div class="header__logo">
@@ -24,12 +27,16 @@
   </header>
   <main>
     <section class="main__about--container" id="about">
-      <img src="./resources/MI LOGO.png" alt="iMadfxq's logo" class="main__about--logo">
-      <h2>Hi, I'm Oscar</h2>
-        <article class="main__about--info">
+      <div class="main__about--logo">
+        <img src="./resources/MI LOGO.png" alt="iMadfxq's logo">
+      </div>
+      <article class="main__about--info">
+        <h2>Hi, I'm Oscar</h2>
+        <div class="main__about--description">
           <p>I'm a Frontend Developer who believes in Kaizen, which is to never stop improving and growing day by day, little by little and exponentially</p>
           <a class="main__about--cv" href="https://www.linkedin.com/in/imadfxq/" target="blank">Download CV</a>
-        </article>
+      </div>
+      </article>
     </section>
     <section class="main__skills--container" id="skills">
       <div class="title--icon">

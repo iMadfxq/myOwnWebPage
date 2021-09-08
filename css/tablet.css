@@ -1,0 +1,10 @@
+.main__contact--info {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.main__contact--info a {
+  padding: 15px;
+  width: 120px;
+  text-align: center;
+}

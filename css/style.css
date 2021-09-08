@@ -93,12 +93,18 @@ main {
   background: rgb(0, 0, 0);
   background: linear-gradient(180deg, rgb(0, 0, 0) 10%, rgba(76,0,8,1) 85%);
 }
-.main__about--logo {
+.main__about--logo img {
   width: 200px;
   margin-block-start: 70px;
   margin-block-end: 10px;
   border-radius: 50%;
   user-select: none;
+}
+.main__about--info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .main__about--container h2 {
   font-size: 2.8rem;
@@ -109,8 +115,9 @@ main {
   border-radius: 20px;
   box-shadow: 5px 5px white;
   margin: 5px;
+  width: fit-content;
 }
-.main__about--container .main__about--info {
+.main__about--description {
   font-size: 1.8rem;
   padding: 15px;
   text-align: center;
