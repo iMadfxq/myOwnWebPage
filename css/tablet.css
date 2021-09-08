@@ -6,5 +6,7 @@
 .main__contact--info a {
   padding: 15px;
   width: 120px;
+  height: 140px;
+  justify-content: flex-start;
   text-align: center;
 }
