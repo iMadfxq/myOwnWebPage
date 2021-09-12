@@ -1,4 +1,12 @@
 /* UNIVERSAL */
+@keyframes text {
+  0% {
+    content: "Oscar";
+  }
+  50% {
+    content: "iMadfxq";
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -106,7 +114,7 @@ main {
   align-items: center;
   justify-content: center;
 }
-.main__about--container h2 {
+.main__about--info h2 {
   font-size: 2.8rem;
   padding: 20px;
   font-weight: 900;
@@ -116,6 +124,11 @@ main {
   box-shadow: 5px 5px white;
   margin: 5px;
   width: fit-content;
+}
+.main__about--info span::before {
+  content: "Oscar";
+  animation: text infinite 4s;
+  animation-timing-function: linear;
 }
 .main__about--description {
   font-size: 1.8rem;
