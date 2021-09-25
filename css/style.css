@@ -232,13 +232,15 @@ main {
 .main__skills--samples {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 .main__skills--samples a {
-  width: fit-content;
+  width: 250px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   padding: 15px;
   transition: 0.5s;
   margin: 20px;
@@ -247,10 +249,8 @@ main {
 }
 .main__skills--samples a:hover {
   text-decoration: underline black;
-  transform: scale(1.02);
+  transform: scale(1.06);
   background-color: rgba(224, 125, 125, 0.335);
-  border: 1px solid black;
-  border-radius: 20px;
 }
 .main__skills--samples a img {
   width: 210px;
