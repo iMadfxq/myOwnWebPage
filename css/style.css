@@ -291,6 +291,37 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+  padding: 15px;
+  width: 250px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.comment > p {
+  font-size: 1.4rem;
+}
+.comment--header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block-end: 10px;
+}
+.comment--header img {
+  border-radius: 50%;
+  width: 60px;
+}
+.comment--header h4 {
+  font-size: 1.3rem;
+  color: black;
+}
+.comment--header > p {
+  font-size: 1.1rem;
 }
 
 /* MAIN CONTACT */
