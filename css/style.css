@@ -255,7 +255,7 @@ main {
 }
 .main__skills--samples {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
 }
 .main__skills--samples a {
