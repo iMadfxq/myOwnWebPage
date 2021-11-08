@@ -257,6 +257,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 .main__skills--samples a {
   width: 250px;
