@@ -66,7 +66,7 @@ header a {
   width: fit-content;
   display: flex;
   justify-content: center;
-  transition: .5s;
+  transition: .3s;
 }
 header a:hover {
   text-decoration: underline;
@@ -159,7 +159,7 @@ main {
   align-items: center;
   justify-content: center;
   color: white;
-  transition: .6s;
+  transition: .3s;
 }
 .main__about--cv:hover {
   text-decoration: underline;
@@ -267,16 +267,18 @@ main {
   align-items: center;
   justify-content: flex-start;
   padding: 15px;
-  transition: 0.5s;
+  transition: 0.3s;
   margin: 20px;
   border-radius: 20px;
   background-color: rgb(235, 235, 235);
 }
 .main__skills--samples a:hover {
-  text-decoration: underline black;
   transform: scale(1.06);
   background-color: rgba(224, 125, 125, 0.335);
 }
+.main__skills--samples a:hover h3 {
+  text-decoration: underline black;
+ }
 .main__skills--samples a img {
   width: 210px;
 }
@@ -355,7 +357,7 @@ main {
   place-items: center;
   width: 180px;
   padding: 15px;
-  transition: .6s;
+  transition: .3s;
   z-index: 2;
 }
 .main__contact--info a:hover {
@@ -396,7 +398,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 500ms;
+  transition: 0.3s;
 }
 .footer__info a:hover {
   font-size: 1.5rem;
