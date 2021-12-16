@@ -1,7 +1,6 @@
-/* UNIVERSAL */
 @keyframes text {
   0% {
-    content: "Oscar";
+    content: "Oscar ";
   }
   50% {
     content: "iMadfxq";
@@ -126,7 +125,7 @@ main {
   width: fit-content;
 }
 .main__about--info span::before {
-  content: "Oscar";
+  content: "Oscar ";
   animation: text infinite 4s;
   animation-timing-function: linear;
 }
