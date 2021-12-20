@@ -311,6 +311,12 @@ main {
   justify-content: center;
   align-items: center;
 }
+.comments--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .comment {
   display: flex;
   flex-direction: column;
