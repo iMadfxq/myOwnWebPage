@@ -276,7 +276,7 @@ main {
 }
 .main__skills--samples a {
   width: 250px;
-  height: 290px;
+  height: 265px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -324,7 +324,7 @@ main {
   background-color: rgb(235, 235, 235);
   padding: 15px;
   width: 250px;
-  height: 250px;
+  height: 240px;
   border-radius: 20px;
   margin: 20px;
 }
