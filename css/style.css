@@ -146,7 +146,7 @@ main {
   align-items: center;
 }
 .main__about--cv {
-  width: 150px;
+  width: 200px;
   height: 45px;
   border-radius: 10px;
   margin-block-start: 14px;
@@ -220,11 +220,11 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 80px;
+  width: 70px;
   margin: 10px;
 }
 .languages__logo img {
-  width: 70px;
+  width: 60px;
   margin-block-end: 5px;
 }
 .languages__logo p {
@@ -242,10 +242,10 @@ main {
   align-items: center;
   flex-direction: column;
   margin: 20px;
-  width: 70px;
+  width: 50px;
 }
 .technologies--icons img {
-  width: 55px;
+  width: 50px;
   margin-block-end: 5px;
 }
 .technologies--icons p {
