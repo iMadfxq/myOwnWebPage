@@ -53,6 +53,7 @@ header {
 }
 .header__logo img {
   width: 86px;
+  height: 49.135px;
   user-select: none;
   margin-inline-start: 10px;
 }
