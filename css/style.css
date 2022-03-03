@@ -258,6 +258,25 @@ main {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+.popup {
+  position: absolute;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+}
+.popup--container {
+  display: flex;
+  flex-direction: column;  
+}
+.popup--projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 .samples--tags {
   display: flex;
