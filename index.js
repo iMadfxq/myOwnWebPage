@@ -9,8 +9,10 @@ documentBody.addEventListener('click', (e) => {
     hiddenSamples.scrollIntoView(true, {behavior: 'smooth'})
     showButton.textContent = '- Show less'
   } else if(e.target === showButton && hiddenSamples.style.display == 'flex'){
+    setTimeout(() => {
+      hiddenSamples.style.display = 'none'
+    }, 400) //to avoid it showing the bottom of the webpage before scrollingIntoView 
     document.querySelector('.samples').scrollIntoView(true, {behavior: 'smooth'})
-    hiddenSamples.style.display = 'none'
     showButton.textContent = '+ Show more'
 
   }
