@@ -2,6 +2,7 @@ const documentBody = document.querySelector("body");
 const showButton = document.querySelector("#samples--display");
 const regularSamples = document.querySelector(".samples");
 const hiddenSamples = document.querySelector("#samples--hidden");
+const nameDOM = document.querySelector('.main__about--info span')
 
 documentBody.addEventListener("click", (e) => {
   e.stopPropagation();
@@ -19,3 +20,11 @@ documentBody.addEventListener("click", (e) => {
     showButton.textContent = "+ Show more";
   }
 });
+
+setInterval(() => {
+  if(nameDOM.textContent === "iMadfxq") {
+    nameDOM.textContent = "Oscar"
+  } else if(nameDOM.textContent === "Oscar") {
+    nameDOM.textContent = "iMadfxq"
+  }
+}, 1200)
