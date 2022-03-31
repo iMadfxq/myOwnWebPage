@@ -23,8 +23,8 @@ documentBody.addEventListener("click", (e) => {
 
 setInterval(() => {
   if(nameDOM.textContent === "iMadfxq") {
-    nameDOM.textContent = "Oscar"
-  } else if(nameDOM.textContent === "Oscar") {
+    nameDOM.textContent = "Oscar Gomez"
+  } else if(nameDOM.textContent === "Oscar Gomez") {
     nameDOM.textContent = "iMadfxq"
   }
 }, 1200)
